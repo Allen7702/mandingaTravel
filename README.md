@@ -71,3 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Mandinga-Travel
 # Mandinga-Travel.github.io
 # Mandinga-Travel.github.io
+# mandingaTravel
