@@ -72,7 +72,7 @@ location="/zanzibar"
 />
 </div>
 
-{/*why choose us */}
+{/*why choose us. */}
 <div className="hidden md:flex flex-col md:w-[85%]  rounded md:m-auto md:mt-20 pt-5 pb-5 dark:text-white dark:bg-black dark:text-zinc-100">
 
 <h1 className="text-center text-5xl">WHY CHOOSE US?</h1>
