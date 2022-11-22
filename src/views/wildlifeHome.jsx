@@ -11,7 +11,12 @@ import ser3 from "../images/ser3.jpg";
 import flamingo from "../images/flamingos.jpg";
 import crater from "../images/crater.jpg";
 import lion from "../images/lion.jpg";
-import pic1 from "../images/kil1.jpg";
+import ser2 from "../images/ser2.jpg";
+import mt4 from "../images/mt4.jpg";
+import animal2 from "../images/animal2.jpg";
+import ser5 from "../images/ser5.jpg";
+import monkey from "../images/monkey.jpg";
+
 
 
 export default function Wildlife(){
@@ -34,7 +39,13 @@ export default function Wildlife(){
  </div>
      </div>
      <div className="m-auto w-[99%] md:w-[100%] md:h-[750px]  h-[310px]">
-<Slider />
+<Slider
+img1={ser2}
+img2={mt4}
+img3={animal2}
+img4={ser5}
+img5={monkey}
+/>
      </div>
      </div> 
 

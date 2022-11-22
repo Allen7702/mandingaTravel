@@ -9,6 +9,12 @@ import zani3 from "../images/zani3.jpg";
 import oldonyo from "../images/oldonyo.jpeg";
 import meru from "../images/meru.jpg";
 import Button from "../components/button";
+import mt5 from "../images/mt5.jpg";
+import mt3 from "../images/mt3.jpg";
+import kil3 from "../images/kil3.jpg";
+import mt4 from "../images/mt4.jpg";
+import mt6 from "../images/mt6.jpg";
+
 
 export default function Mountain(){
     return(
@@ -30,7 +36,13 @@ export default function Mountain(){
  </div>
      </div>
      <div className="m-auto w-[99%] md:w-[100%] md:h-[750px]  h-[310px]">
-<Slider />
+<Slider 
+img1={mt3}
+img2={mt5}
+img3={kil3}
+img4={mt4}
+img5={mt6}
+/>
      </div>
      </div> 
 

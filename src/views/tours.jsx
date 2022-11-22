@@ -41,7 +41,13 @@ bname='Book Now'
 />
      </div>
      <div className="m-auto w-[99%] md:w-[100%] md:h-[750px]  h-[310px]">
-<Slider />
+<Slider
+img1={zani1}
+img2={zani2}
+img3={ser3}
+img4={zani1}
+img5={zani2}
+/>
      </div>
    </div> 
 

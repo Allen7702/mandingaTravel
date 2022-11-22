@@ -6,7 +6,7 @@ export default function HomeComponent(props){
         
 <div className=" w-[90%] h-[100%] shadow-md border dark:border-gray-800 rounded-3xl">
      <div>
-      <img src ={props.img}  className="md:h-[450px] h-[330px] rounded-t-2xl w-[100%]" alt="zanzibar"/>
+      <img src ={props.img}  className="object-cover md:h-[450px] h-[330px] rounded-t-2xl w-[100%]" alt="zanzibar"/>
      </div>
      <div className="">
      <h1 className="text-3xl p-5 text-center"> {props.name} </h1>

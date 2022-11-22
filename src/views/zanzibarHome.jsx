@@ -11,6 +11,13 @@ import zanprison from "../images/zanprison.jpg";
 import zani1 from "../images/zani1.jpg";
 import zani2 from "../images/zani2.jpg";
 import zani3 from "../images/zani3.jpg";
+import za1 from "../images/za1.jpg";
+import za2 from "../images/za2.jpg";
+import za3 from "../images/za3.jpg";
+import za4 from "../images/za4.jpg";
+import za5 from "../images/za5.jpg";
+
+
 
 export default function Zanzibar(){
     return(
@@ -37,7 +44,13 @@ Bless yourself with spectacular views of the sunset, evening strolls, nightlife,
  </div>
      </div>
      <div className="m-auto w-[99%] md:w-[100%] md:h-[750px]  h-[310px]">
-<Slider />
+<Slider 
+img1={za4}
+img2={zanprison}
+img3={za1}
+img4={za2}
+img5={za3}
+/>
      </div>
      </div> 
 

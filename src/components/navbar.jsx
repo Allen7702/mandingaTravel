@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Toggle from "./toggle";
 import amecore from "../images/amec.png";
 import { Link } from "react-router-dom";
+import mandinga from "../images/mandinga.png";
+
 
 function Navbar(){
   const [navbari , setNavbar] = useState(false);
@@ -11,7 +13,7 @@ function Navbar(){
 <nav className="bg-white bg-opacity-95 px-2 sm:px-4 py-2.5  fixed top-0 z-10  w-full shadow-md left-0 dark:bg-black">
   <div className=" container flex flex-wrap justify-between items-center mx-auto">
   <a href="#" class="flex items-center">
-      <img src={amecore} class="mr-3 h-14 w-8 sm:h-9" alt="Mandinga Logo"/>
+      <img src={mandinga} class="mr-3 h-10 w-10 sm:h-9" alt="Mandinga Logo"/>
       <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Mandinga Travel</span>
   </a>
   <div className="flex md:order-2">

@@ -18,7 +18,7 @@ import ser1 from "../images/ser1.jpg";
 import ser4 from "../images/ser4.jpg";
 import zan1 from "../images/zan1.jpg"; 
 
-export default function Slider() {
+export default function Slider(props) {
     return (
         <>
             <Swiper
@@ -43,22 +43,38 @@ export default function Slider() {
                 
                     <img
                         className="object-cover w-[100%] h-[310px] md:h-[750px] "
-                        src={pic1}
+                        src={props.img1}
                         alt="image slide 1"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
                         className="object-cover w-[100%] h-[310px] md:h-[750px]"
-                        src={pic2}
+                        src={props.img2}
                         alt="image slide 2"
                     />
                      </SwiperSlide>
                 <SwiperSlide>
                     <img
                         className="object-cover w-[100%] h-[310px] md:h-[750px]"
-                        src={ser4}
+                        src={props.img3}
                         alt="image slide 3"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                
+                    <img
+                        className="object-cover w-[100%] h-[310px] md:h-[750px] "
+                        src={props.img4}
+                        alt="image slide 4"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                
+                    <img
+                        className="object-cover w-[100%] h-[310px] md:h-[750px] "
+                        src={props.img5}
+                        alt="image slide 5"
                     />
                 </SwiperSlide>
             </Swiper>

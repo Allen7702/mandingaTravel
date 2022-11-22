@@ -30,7 +30,13 @@ function Home(){
 <h1>+255 712 876 876</h1>
      </div>
      <div className="m-auto w-[99%] md:w-[100%] md:h-[750px]  h-[310px]">
-<Slider />
+<Slider 
+img1={pic1}
+img2={pic2}
+img3={ser1}
+img4={ser4}
+img5={zan1}
+/>
      </div>
    </div> 
 
