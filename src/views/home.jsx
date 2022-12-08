@@ -27,7 +27,7 @@ function Home(){
 <h1 className="text-5xl md:text-8xl font-serif">Trust Mandinga Travels</h1>
 <h1 className="text-2xl font-body ">A World of Endless Travel Possibilities</h1>
 <h1>Mandinga Travels is here to plan an experience you’ll never forget. Founded in 2020, we are at Arusha . We take care of all the details so you can get straight to the fun. Get in touch to learn more. </h1>
-<h1>+255 712 876 876</h1>
+<h1><a href ='tel:+255783700954'>+255 712 876 876</a></h1>
      </div>
      <div className="m-auto w-[99%] md:w-[100%] md:h-[750px]  h-[310px]">
 <Slider 
@@ -84,7 +84,7 @@ location="/zanzibar"
   <BiBriefcaseAlt size={80} color='orange' className="m-auto "/>
   </div>
   <h1 className="text-2xl ">AFFORDABLE PRICE<br/>GUARANTEE</h1>
-  <h1 className="text-xl px-10">What other possibilities are there for breaking state monopolies whilst continuing to guarantee that all citizens obtain the best service at an affordable price?</h1>
+  <h1 className="text-xl px-10">What other possibilities are there for breaking state monopolies whilst continuing to guarantee that all citizens obtain the best service at an affordable price.</h1>
 </div>
 
 <div className=" text-center m-auto mt-8" >
