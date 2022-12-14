@@ -34,7 +34,7 @@ function Tours(){
 <h1 className="text-5xl md:text-8xl font-serif">PLAN YOUR TRIP WITH US</h1>
 <h1 className="text-2xl font-body ">A World of Endless Travel Possibilities</h1>
 <h1>Mandinga Travels is here to plan an experience you’ll never forget. Founded in 2020, we are at Arusha . We take care of all the details so you can get straight to the fun. Get in touch to learn more. </h1>
-<h1 className="mb-5">+255 712 876 876</h1>
+<h1 className="mb-5"><a href ='tel:+255712876876'>+255 712 876 876</a></h1>
 <Button
 location='/contactUs'
 bname='Book Now'

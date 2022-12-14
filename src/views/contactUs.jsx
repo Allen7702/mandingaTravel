@@ -23,7 +23,7 @@ function ContactUs(){
         </div>
         <div className="pl-10 pt-10 md:pt-32"> 
            <h1 className="text-3xl">PHONE</h1>
-           <h1 className="text-2xl pl-2 pb-10">+255783 700 954</h1> 
+           <h1 className="text-2xl pl-2 pb-10"><a href ='tel:+255712876876'>+255 712 876 876</a></h1> 
            <h1 className="text-3xl">SOCIALS</h1>
            <div className="flex space-x-4 pb-10">
            <Link to="" className=" rounded-full w-14 h-14 border-2 border-black">
