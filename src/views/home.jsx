@@ -15,7 +15,7 @@ import jou from "../images/Journey-bro.png";
 import zan8 from "../images/zan8.jpg";
 import ballon from "../images/ballon.jpg";
 import mt1 from "../images/mt1.jpg";
-
+import Multicarousel from "../components/multicarousel";
 
 function Home(){
    return(
@@ -43,8 +43,14 @@ img5={zan1}
 <div>
 <h1 className="  text-4xl md:text-6xl flex justify-center mt-5 md:mt-36">Our Services</h1>
 </div>
+<div className="hidden dark:bg-black items-center flex flex-col  md:ml-auto justify-center  mt-10 md:mt-20 mb-32 md:m-auto md:w-[90%]  md:grid md:grid-cols-4 gap-10 ">
 
-<div className="dark:bg-black items-center flex flex-col  md:ml-auto justify-center  mt-10 md:mt-20 mb-32 md:m-auto md:w-[90%]     md:grid md:grid-cols-3 gap-10">
+<Multicarousel />
+
+</div>
+
+<div className="md:hidden dark:bg-black items-center flex flex-col  md:ml-auto justify-center  mt-10 md:mt-20 mb-32 md:m-auto md:w-[90%]  md:grid md:grid-cols-4 gap-10 ">
+
 <HomeComponent
 img={zan1} 
 name='Mount Climbing'
@@ -52,7 +58,6 @@ list1='Get to climb Mount Kilimanjaro'
 list2='Get to visit Mount Meru'
 list3='visit various hills and waterfalls'
 location="/mountain"
-
 />
 <HomeComponent
 img={pic2} 
@@ -64,12 +69,21 @@ location="/wildlife"
 />
 <HomeComponent
 img={ser4} 
+name='Cultural Tourism'
+list1='Get to have a Traditional Maasai tour'
+list2='get to see different museums'
+list3='get to have various chagga tours'
+location="/zanzibar"
+/>
+<HomeComponent
+img={ser4} 
 name='zanzibar Safari'
 list1='Visit various beaches'
 list2='get to see old tombstones'
 list3='get to see old tombstones'
 location="/zanzibar"
 />
+
 </div>
 
 {/*why choose us. */}
